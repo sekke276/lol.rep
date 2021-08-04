@@ -1,0 +1,32 @@
+.main-content
+{
+    padding: 10px 20px;
+}
+.inform-section
+{
+
+    background: linear-gradient(135deg,transparent 10px,black 0) top left,
+    linear-gradient(-45deg,transparent 10px,black 0) bottom left;
+    background-size:100% 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding :5px;
+    color: #F9B552;
+    height: auto;
+    margin: 15px 0px;
+   
+}
+
+
+#inform-header
+{
+    font-size: 150%;
+    border-bottom: #F9B552 solid 1px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+#inform-content
+{
+    font-size: 15px;
+    padding: 15px 5px;
+}
