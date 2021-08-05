@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" href="./css/main-content.css">
     <link rel="stylesheet" type="text/css" href="./css/news-section.css">
     <link rel="stylesheet" type="text/css" href="./css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./css/nav-pc.css">
+    <link rel="stylesheet" type="text/css" href = "./css/dropdown.css">
 </head>
 <body>
     <main>
@@ -22,6 +24,34 @@
                 <div class = "nav-logo">
                     <a href="#"><img id = "main-logo" width="100" height="40" src="./img/logo/lgopng.png"></a>
                 </div>
+                <!--nav pc-->
+                <div class="nav-pc">
+                    <div class="nav-content-pc">
+                        <div id = "news" class = "nav-list">TIN TỨC</div>
+                        <div id = "introduce" class = "nav-list">GIỚI THIỆU</div>
+                        <div id = "esports" class = "nav-list">ESPORTS</div>
+                        <div id = "support"class = "nav-list">HỖ TRỢ</div>
+                        <div id = "download" class="nav-list"> TẢI GAME</div>
+                        <div id = "cards"class = "nav-list">NẠP THẺ</div>
+                        <!--drop down-->
+                        <div class="dropdown">
+                            <a href="" class="dropdown-list"> TIN TỨC</a>   
+                            <a href="" class="dropdown-list"> SỰ KIỆN</a>   
+                            <a href="" class="dropdown-list"> TIN GAME</a>   
+                            <a href="" class="dropdown-list"> ESPORTS</a>   
+                            <a href="" class="dropdown-list"> CỘNG ĐỒNG</a>   
+                            <a href="" class="dropdown-list"> CẨM NANG</a>   
+                            <a href="" class="dropdown-list"> VŨ TRỤ</a>   
+                            <a href="" class="dropdown-list"> GIỚI THIỆU</a>   
+                            <a href="" class="dropdown-list"> TƯỚNG</a>   
+                            <a href="" class="dropdown-list"> TRANG BỊ</a>   
+                            
+                        </div>
+                    </div>
+                </div>
+                    <!--end nav pc-->
+               
+               <!-- button to open nav left-->
                 <input type = "checkbox" id = "nav-input" class="nav__input">
                 <label for="nav-input">
                 <div class = "open-nav-logo">
@@ -31,15 +61,17 @@
                 </div></label>
               
                 <label for = "nav-input" class = "overplayed"></label>
-               
+                <!--Nav left-->
                 <div class = "left-nav">
                     <div id = "nav-header">
                         <label for="nav-input">
                         <div class = "close-nav">
-                           
                             <div class="line" id = "line1"></div>
                             <div class="line" id = "line2"></div>
                         </div></label>
+                        <a href="home-page.html">
+                            <img id = "main-logo-nav-left" width="100" height="40" src="./img/logo/lgopng.png">
+                        </a>
                     </div>
                     <div class="nav-content">
                         <div id = "news">TIN TỨC</div>
@@ -49,6 +81,7 @@
                         <div id = "cards">NẠP THẺ</div>
                     </div>
                 </div>
+                <!--end nav left-->
             </div>
         </div>
     <div id = "mainpage">

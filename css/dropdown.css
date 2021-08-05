@@ -1,0 +1,8 @@
+.dropdown
+{
+    display: none;
+}
+#news:hover .dropdown
+{
+    display: block;
+}

@@ -13,7 +13,7 @@
     padding :5px;
     color: #F9B552;
     height: auto;
-    margin: 15px 0px;
+    margin: 20px;
    
 }
 
@@ -29,4 +29,23 @@
 {
     font-size: 15px;
     padding: 15px 5px;
+}
+
+@media (min-width: 1023px)
+{
+    .inform-section
+    {
+        text-align: left;
+        padding-left: 50px;
+        
+    }
+    #inform-header
+    {
+        border-bottom: none;
+        
+    }
+    #inform-content
+    {
+        border-left: #F9B552 solid 1px;
+    }
 }

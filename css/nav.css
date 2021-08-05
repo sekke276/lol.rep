@@ -6,6 +6,8 @@
     height: 3rem;
     background-color: #101215;
     z-index: 1;
+    display: flex;
+    justify-content: center;
    
 }
 
@@ -31,10 +33,15 @@
     margin: 1px;
     border-radius: 21%;
 }
-.nav-logo
-{
-    position: absolute;
-    left: 10;
-    margin: 5px;
-}
 
+@media (min-width: 1023px)
+{
+    .left-nav
+    {
+        display: none;
+    }
+    .open-nav-logo
+    {
+        display: none;
+    }
+}

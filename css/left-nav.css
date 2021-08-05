@@ -22,7 +22,7 @@
     color: #ccbe91;
     max-width: 100%;
     transform: translateX(100%);
-    transition: transform linear 0,2s;
+    transition: transform linear 0.3s;
 }
 #nav-header
 {
@@ -43,7 +43,6 @@
     justify-items: center;
     border-radius: 50%;
 }
-
 
 #line1
 {
@@ -89,3 +88,4 @@
     line-height: 2;
     font-weight: 600;
 }
+

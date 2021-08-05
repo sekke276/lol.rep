@@ -6,16 +6,16 @@
 
 #intro-list-img
 {
-    width: 349px;
-    height: 113.484px;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
     margin: auto;
 }
 #background-introduce
 {
-    top: 100;
     position: relative;
     width: 100%;
-   height : 143.53px;
+   height : 100%;
     background-image:url('../img/picture/background-intro.jpg');
     padding: auto;
     display: flex;
