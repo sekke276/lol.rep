@@ -8,6 +8,7 @@ body {
   font-family: "Work Sans", sans-serif;
   color: #000000;
   background-color: white;
+  -webkit-line-clamp: 2;
 }
 a {
   color: inherit;
