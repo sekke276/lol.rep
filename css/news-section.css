@@ -1,0 +1,49 @@
+.news-section
+{
+    margin: 28px 0px;
+    font-size: 16px;
+    line-height: 1.4;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+ 
+}
+.new-img
+{
+    width: 339.98px;
+    height: 229.98px;
+}
+
+.news
+{
+    max-width: 339.98px;
+}
+.kind
+{
+    font-size: 17px;
+    color:#0ac6e4;
+    margin: 10px 5px;
+    font-weight: 500;
+}
+.title
+{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 5px;
+}
+.new-description
+{
+    color: gray;
+    margin: 10px 5px 12.5px;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    
+   
+}
+.description-time
+{
+    color: gray;
+    margin-bottom: 23.5px;
+}

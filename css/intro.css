@@ -1,0 +1,22 @@
+#mainpage
+{
+    top: 49px;
+    position: relative;
+}
+
+#intro-list-img
+{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    margin: auto;
+}
+#background-introduce
+{
+    position: relative;
+    width: 100%;
+   height : 100%;
+    background-image:url('../img/picture/background-intro.jpg');
+    padding: auto;
+    display: flex;
+}

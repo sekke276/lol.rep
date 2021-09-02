@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="/css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/global.css">
+    <link rel="stylesheet" type="text/css" href = "css/reset.css">
+    <link rel="stylesheet" type="text/css" href = "./css/left-nav.css">
+    <link rel="stylesheet" type="text/css" href="./css/intro.css">
+    <link rel="stylesheet" type="text/css" href="./css/main-content.css">
+    <link rel="stylesheet" type="text/css" href="./css/news-section.css">
+    <link rel="stylesheet" type="text/css" href="./css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./css/nav-pc.css">
+    <link rel="stylesheet" type="text/css" href = "./css/dropdown.css">
+</head>
+<body>
+    <main>
+        <div class = "top-bar"></div>
+        <div id = "header">
+            <div class = container>
+                <div class = "nav-logo">
+                    <a href="#"><img id = "main-logo" width="100" height="40" src="./img/logo/lgopng.png"></a>
+                </div>
+                <!--nav pc-->
+                <div class="nav-pc">
+                    <div class="nav-content-pc">
+                        <div id = "news" class = "nav-list">TIN TỨC</div>
+                        <div id = "introduce" class = "nav-list">GIỚI THIỆU</div>
+                        <div id = "esports" class = "nav-list">ESPORTS</div>
+                        <div id = "support"class = "nav-list">HỖ TRỢ</div>
+                        <div id = "download" class="nav-list"> TẢI GAME</div>
+                        <div id = "cards"class = "nav-list">NẠP THẺ</div>
+                        <!--drop down-->
+                        <div class="dropdown">
+                            <a href="" class="dropdown-list"> TIN TỨC</a>   
+                            <a href="" class="dropdown-list"> SỰ KIỆN</a>   
+                            <a href="" class="dropdown-list"> TIN GAME</a>   
+                            <a href="" class="dropdown-list"> ESPORTS</a>   
+                            <a href="" class="dropdown-list"> CỘNG ĐỒNG</a>   
+                            <a href="" class="dropdown-list"> CẨM NANG</a>   
+                            <a href="" class="dropdown-list"> VŨ TRỤ</a>   
+                            <a href="" class="dropdown-list"> GIỚI THIỆU</a>   
+                            <a href="" class="dropdown-list"> TƯỚNG</a>   
+                            <a href="" class="dropdown-list"> TRANG BỊ</a>   
+                            
+                        </div>
+                    </div>
+                </div>
+                    <!--end nav pc-->
+               
+               <!-- button to open nav left-->
+                <input type = "checkbox" id = "nav-input" class="nav__input">
+                <label for="nav-input">
+                <div class = "open-nav-logo">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div></label>
+              
+                <label for = "nav-input" class = "overplayed"></label>
+                <!--Nav left-->
+                <div class = "left-nav">
+                    <div id = "nav-header">
+                        <label for="nav-input">
+                        <div class = "close-nav">
+                            <div class="line" id = "line1"></div>
+                            <div class="line" id = "line2"></div>
+                        </div></label>
+                        <a href="home-page.html">
+                            <img id = "main-logo-nav-left" width="100" height="40" src="./img/logo/lgopng.png">
+                        </a>
+                    </div>
+                    <div class="nav-content">
+                        <div id = "news">TIN TỨC</div>
+                        <div id = "introduce">GIỚI THIỆU</div>
+                        <div id = "esports">ESPORTS</div>
+                        <div id = "support">HỖ TRỢ</div>
+                        <div id = "cards">NẠP THẺ</div>
+                    </div>
+                </div>
+                <!--end nav left-->
+            </div>
+        </div>
+    <div id = "mainpage">
+        <!--Introduce section-->
+        <div class = "section-introduce">
+            <div id = "background-introduce">
+                <img src="" id = "intro-list-img" >
+                <script type="text/javascript">
+                    let img = document.getElementById('intro-list-img');
+                    let list_img = ['./img/picture/VienAnhSang.jpg','./img/picture/DTCL_Master_banner.jpg',
+                './img/picture/than-binh.jpg', './img/picture/So-Huu-Skin-Moi.jpg','./img/picture/cuu-hang-bi-mat,jpg'];
+                setInterval(function(){
+                  let random = Math.floor(Math.random()*4);
+                  img.src = list_img[random];
+                },1500);
+                </script>
+            </div>
+        </div>
+        <!--End of Introduce section-->
+      <div class = "main-content">
+        <!-- inform-->
+        <div class = "inform-section">
+                <div class="inform-box">
+                         <h1 id = "inform-header">Thông Tin Hệ Thống</h1>
+                        <p id = "inform-content">Giáng hạng vì không hoạt động tạm thời được tắt</p>
+                </div>
+        </div>
+        <!--End of Inform-->
+        <!--news-->
+        <div class="news-section">
+            <div class="news">
+                <a href="https://www.youtube.com/watch?v=OtdPIZfWDaA" target="blank" class="news-link">
+                     <img class = "new-img" id="new1" src="./img/picture/news1.jpg">
+                     <p class="kind">Cinematic</p>
+                      <h1 class="title">Sự Giải Thoát | Cinematic Vệ Binh Ánh Sáng 2021</h1>
+                      <p class="new-description">Hai linh hồn liên kết với nhau bởi định mệnh. Một người sống để giải thoát cho người còn lại</p>
+                      <p class="description-time">22:00 03/08/2021</p>
+                </a>
+            </div>
+            <div class="news">
+                <a href="https://lienminh.garena.vn/news/articles/8728" class="news-link">
+                    <img class = "new-img" id="new2" src="./img/picture/news2.jpg">
+                    <p class="kind">Sự Kiện</p>
+                    <h1 class="title">Thi đấu ổn định, TS Slay1 trở thành nhà vô địch giải đấu 2v2 Vệ Binh Ánh Sáng</h1>
+                    <p class="new-description">Sau 5 ngày thi đấu căng thẳng giải đấu 2v2 Vệ Binh Ánh Sáng đã tìm được ra những bộ đôi xuất sắc nhất</p>
+                    <p class="description-time">19:00 02/08/2021</p>
+                </a>
+            </div>
+            <div class="news">
+                <a href="https://datareview.lol.garena.vn/" class="news-link">
+                    <img class = "new-img" id="new3" src="./img/picture/news3.jpg">
+                    <p class="kind">Sự Kiện</p>
+                    <h1 class="title">Tham gia "Sự Nghiệp Liên Minh" - Chia sẻ thành tựu, Tự hòa vinh quang từ 02/08 đến 30/08</h1>
+                    <p class="new-description">Hãy xem thành tựu của bạn trong những năm tháng chinh chiến Liên Minh tại đây nhé!</p>
+                    <p class="description-time">12:00 02/08/2021</p>
+                </a>
+            </div>
+            <div class="news">
+                <a href="https://lienminh.garena.vn/news/articles/8726" class="news-link">
+                    <img class = "new-img" id="new4" src="./img/picture/news4.jpg">
+                     <p class="kind">Giải Đấu</p>
+                     <h1 class="title">Công bố kết quả Giải Đấu Sách Phép Tối Thượng</h1>
+                      <p class="new-description">Chủ nhân của Sách Phép Tối Thượng Đã hé lộ</p>
+                       <p class="description-time">16:00 30/07/2021</p>
+                 </a>
+            </div>
+            <div class="news">
+                <a href="https://lienminh.garena.vn/news/articles/8725" class="news-link">
+                    <img class = "new-img" id="new5" src="./img/picture/news5.jpg">
+                     <p class="kind">Sự Kiện</p>
+                     <h1 class="title">Tham gia "Kéo Búa Bao" - Sở hữu trang phục giới hạn Loạn Thế Thần Binh từ 03/07 đến 05/08</h1>
+                      <p class="new-description">Nhanh tay các bạn ơi. Cơ hội để sở hữu các trang phục hiếm đây rồi</p>
+                       <p class="description-time">10:00 30/07/2021</p>
+                 </a>
+            </div>
+            <div class="news">
+                <a href="https://www.youtube.com/watch?v=FUPybvQXEwU" target="blank" class="news-link">
+                    <img class = "new-img" id="new6" src="./img/picture/news6.jpg">
+                     <p class="kind">Cốt Truyện</p>
+                     <h1 class="title">Tóm tắt Chương III | Kỷ Nguyên Ánh Sáng</h1>
+                      <p class="new-description">Những đồng minh kỳ lạ, kẻ vô lại, và các bí mật: Đây là những điều mà bạn đã bỏ lỡ trong Kỷ Nguyên Ánh Sáng Chương III.</p>
+                       <p class="description-time">03:00 30/07/2021</p>
+                 </a>
+            </div>
+            
+        </div>
+       </div>
+    </div>
+        <div id = "footer">
+            <div class="footer-logo">
+                <img src="./img/logo/logos-vn.png" alt="logo garena riot vietnam esport" class="logo-footer">
+            </div>
+            <p class = "description-project"> sản phẩm chỉ là sao chép từ page <a href="https://lienminh.garena.vn/">https://lienminh.garena.vn/</a></p>
+            <div class="logo-contact-container">
+                <div class="contact">
+                    <img src="./img/sysmbol/facebook-f-brands.svg" alt="facebook" class="logo-contact">
+                    <h1 class="contact-description">Facebook</h1>
+                </div>
+                <div class="contact">
+                    <img src="./img/sysmbol/youtube-brands.svg" alt="youtube" class="logo-contact">
+                    <h1 class="contact-description">Youtube</h1>
+                </div>
+                <div class="contact">
+                    <img src="./img/sysmbol/info-solid.svg" alt="service" class="logo-contact">
+                    <h1 class="contact-description">Điều khoản dịch vụ</h1>
+                </div>
+                </div>
+                <div class="age-limited">
+                    <img src="./img/logo/vn-12.png" alt="12+" id="age-limit">
+                </div>
+            </div>
+            </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.logo-contact
+{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+}
+.footer-logo
+{
+    top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#footer
+{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+.logo-contact-container
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    margin: 10px;
+}
+.description-project
+{
+    margin:10px 0px ;
+}
+.contact
+{
+    display: flex;
+    flex-flow: row;
+    font-size: 10px;
+    margin: 10px;
+    
+}
+#age-limit
+{
+    width: 116px;
+    height: 51px;
+}
